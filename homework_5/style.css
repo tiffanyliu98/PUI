@@ -115,12 +115,17 @@ p {
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 6px
+	line-height: 6px;
 }
 
 .productText {
 	text-align: left;
 	font-family: Clear Sans;
+	text-decoration: none;
+}
+
+.productText a:hover {
+	color: gray;
 }
 
 /*product detail page*/
