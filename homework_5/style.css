@@ -1,26 +1,28 @@
-/*character styling*/
+/*text styling*/
 
 h1 {
-	font-family: verdana;
-	font-size: 24px; 
+	font-family: Clear Sans;
+	font-size: 18px; 
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: center;
 }
 
 h2 {
-	font-family: verdana;
-	font-size: large;
+	font-family: Clear Sans;
+	font-size: 24px;
 	font-weight: normal;
+	text-align: left;
 }
 
 h3{
-	font-family: verdana;
+	font-family: Clear Sans;
 	font-size: medium;
 }
 
 p {
-	font-size: 12px;
+	font-family: Clear Sans;
+	font-size: 14px;
 }
 
 /*wrapper*/
@@ -30,7 +32,7 @@ p {
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-	font-family: Verdana;
+	font-family: Clear Sans;
 }
 
 /*navigation*/
@@ -83,6 +85,7 @@ p {
 
 .horizontalBar {
 	width: 90%;
+	color: #f5f5dc;
 }
 
 /*content*/
@@ -95,20 +98,35 @@ p {
 	margin: 25px 60px;
 }
 
+#mainImg {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*product browsing page*/
 
 #productList {
 	margin-top: 25px;
+	text-align: center;
 }
 
 .productItem {
 	display: inline-block;
 	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 6px
+}
+
+.productText {
+	text-align: left;
+	font-family: Clear Sans;
 }
 
 /*product detail page*/
 
 #mainContentLeft {
+	text-align: center;
 	position: relative;
 	width: 50%;
 	float: left;
@@ -121,10 +139,8 @@ p {
 }
 
 #detailImg {
-	display: block;
 	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-bottom: 100px;
 }
 
 .detailImgItem {
@@ -133,5 +149,4 @@ p {
 
 #mainContentDetail {
 	margin: 25px 60px;
-
 }
